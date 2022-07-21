@@ -1,0 +1,243 @@
+.background{
+    background: url("shara desert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.container1{
+    height: 100%;
+}
+.menu{
+    float: right;
+    padding: 20px;
+}
+.button{
+    float: right;
+    color: white;
+    padding: 40px 30px 50px;
+    font-weight: bolder;
+    /* justify-content:right; */
+    /* margin-left: 30px; */
+}
+
+.button a .button1{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* .main{
+    padding: 10px;
+} */
+.logo{
+    border: none;
+    padding: 30px;
+    margin-left: 7%;
+    cursor: pointer;
+}
+.sahara{
+    color: white;
+    margin-left: 7%;
+    font-size: 6.5rem;
+    margin-top: -10%;
+    text-shadow: 2px 4px royalblue;
+}
+#lorem{
+    margin-left: 6%;
+    font-size: 2rem;
+    margin-top: -15;
+    color: blue;
+}
+#EXP{
+    color: white;
+    margin-left: 10%;
+    background-color: rgb(68, 8, 45);
+    width: 9%;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+/* #home{
+    margin-left: 60%;
+    margin-top: -2%;
+    color: white;
+    text-decoration: none;
+    
+} */
+/* #reg{
+    margin-left: 70%;
+    margin-top: -3.6%;
+    color: white;
+}
+#about{
+    margin-left: 80%;
+    margin-top: -3.7%;
+    color: white;
+} */
+.grid{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+    position: relative;
+    grid-gap:3em;
+    border-radius: 10px;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+.pics1{
+    border-radius: 10px;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 5%;
+    animation-duration: 3s;
+    animation-name: FONT page;
+    background-image: url("pic-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    width: 50%;
+    height: 105%;
+}
+.pics1:hover{
+    transform: translateY(-10px);
+}
+.one{
+    color: white;
+    padding-left: 15px ;
+}
+.two{
+    font-size: small;
+    padding-left: 15px;
+    color: white;
+}
+.pic2{
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 53%;
+    margin-top: 2%;
+    animation-duration: 3s;
+    animation-name: pics2;
+    background-image: url("pic-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition-duration: 2s;
+    width: 25%;
+    height: 105%;
+}
+.pic2:hover{
+    transform: translateY(-10px);
+}
+.pic3{
+    border-radius: 10px;
+    position: absolute;
+    margin-top:20%;
+    animation-duration: 5s;
+    animation-name: pics3;
+    background-image: url("pic-3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition-duration: 3s;
+    width: 25%;
+    height: 105%;
+    mar
+}
+.pic3:hover{
+    transform: translateY(-20px);
+}
+.pic4{
+    border-radius: 10px;
+    position: absolute;
+    margin-top:20%;
+    animation-duration: 5s;
+    animation-name: pics3;
+    background-image: url("pic-4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition-duration: 4s;
+    width: 25%;
+    height: 105%;
+    margin-left: -29%;
+}
+.pic4:hover{
+    transform: translateY(-20px);
+}
+
+@media screen and (max-width: 600px)
+{
+    .grid{
+        /* justify-items: center; */
+        /* justify-content: space-between; */
+        margin-left: 25%;
+        margin-top: 35%;
+        width: 100%;
+    }
+    .pics1{
+        margin-left: 25%;
+        margin-top: 25%;
+        width: 110%;
+        height: 70%;
+    }
+    .one{
+        color: white;
+        padding-left: 5px ;
+    }
+    .two{
+        font-size: small;
+        padding-left: 5px;
+        color: white;
+    }
+    .pic2{
+        margin-left: 12%;
+        margin-top: 45%;
+        width: 50%;
+        height: 80%;
+    }
+    .pic3{
+        margin-left: -45%;
+        margin-top: 125%;
+        width: 50%;
+        height: 80%;
+    }
+    .pic4{
+        margin-left: -45%;
+        margin-top: 85%;
+        width: 50%;
+        height: 80%;
+    }
+    .Sahara{
+        margin-top: -65%;
+        margin-left: 25%;
+     
+    }
+    .sahara{
+        /* font-size: 165px; */
+        position: absolute;
+        color: white;
+        font-size: 2.5rem;
+        /* margin-top: -15%; */
+        text-shadow: 2px 4px royalblue;
+    }
+    #lorem{
+        margin-left: 6%;
+        font-size: 0.5rem;
+        margin-top: -15;
+        color: blue;
+    }
+    #EXP{
+        /* border: 1px solid; */
+        width: 100%;
+        color: white;
+        margin-left: 30%;
+        /* background-color: rgb(68, 8, 45); */
+        width: 29%;
+        font-weight: bolder;
+        border-radius: 15px;
+        font-size: 10px;
+        padding: 1px;
+        padding-left: 3px;
+    }
+}
+
+
